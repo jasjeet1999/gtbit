@@ -1,25 +1,4 @@
 
-// let mybtn = document.getElementsByClassName("login-button");
-
-// let content = document.getElementById("content");
-
-// // function myOnClickFn(){
-// //       window.open(data.html);
-// // }
-
-// function getData(){
-//     url = "https://pokeapi.co/api/v2/pokemon/?limit=25"
-//     fetch(url).then((response) => {
-//         return response.json();
-//     }).then((data) => {
-//         console.log(data);
-//     })
-// }
-// let content = document.getElementById("content");
-
-// function myOnClickFn(){
-//       window.open(data.html);
-// }
 let values = ["a"];
 const p = document.getElementById("content")
 fetch('https://pokeapi.co/api/v2/pokemon/?limit=25')
